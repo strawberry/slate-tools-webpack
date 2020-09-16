@@ -45,11 +45,13 @@ const config = {
 
   tkConfig: 'config.yml',
   deployLog: 'deploy.log',
+  webpackConfig: `${themeRoot}/webpack.config`,
 
   src: {
     root: 'src/',
     js: 'src/scripts/**/*.{js,js.liquid}',
     vendorJs: 'src/scripts/vendor/*.js',
+    webpackJs: 'src/scripts/webpack/*.js',
     json: 'src/**/*.json',
     css: 'src/styles/**/*.{css,scss,scss.liquid}',
     cssLint: 'src/styles/**/*.{css,scss}',
@@ -77,6 +79,7 @@ const config = {
   roots: {
     js: 'src/scripts/*.{js,js.liquid}',
     vendorJs: 'src/scripts/vendor.js',
+    webpackJs: 'src/scripts/webpack.js',
     css: 'src/styles/*.{css,scss}',
   },
 
