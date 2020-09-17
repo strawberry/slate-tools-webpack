@@ -91,6 +91,7 @@ gulp.task('watch:src', [
   'watch:css',
   'watch:js',
   'watch:vendor-js',
+  'watch:webpack-js',
 ]);
 
 /**
